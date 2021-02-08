@@ -33,10 +33,10 @@ Run the `challenge` script with the new path for the challenge:
 $ ./scripts/challenge src/domains/algorithms/sorting/big-sorting
 
 # Created 'src/domains/algorithms/sorting/big-sorting'
-# Created 'src/domains/algorithms/sorting/big-sorting/# index.js'
-# Created 'src/domains/algorithms/sorting/big-sorting/# __tests__'
-# Created 'src/domains/algorithms/sorting/big-sorting/# __tests__/index.test.js'
-# Created 'src/domains/algorithms/sorting/big-sorting/# __tests__/input'
+# Created 'src/domains/algorithms/sorting/big-sorting/index.js'
+# Created 'src/domains/algorithms/sorting/big-sorting/__tests__'
+# Created 'src/domains/algorithms/sorting/big-sorting/__tests__/index.test.js'
+# Created 'src/domains/algorithms/sorting/big-sorting/__tests__/input'
 # Created 'src/domains/algorithms/sorting/big-sorting/__tests__/output'
 ```
 
