@@ -7,6 +7,8 @@ global.eachFile = (dirname, cb) => {
   const fileNames = fs.readdirSync(inputPath);
 
   fileNames.forEach((fileName) => {
+    if (fileName.includes("skip")) return;
+
     const input = fs
       .readFileSync(path.join(inputPath, fileName))
       .toString()
