@@ -30,14 +30,14 @@ Run the `challenge` script with the new path for the challenge:
 ```sh
 # syntax ./scripts/challenge <new-path>
 
-$ ./scripts/challenge src/domains/algorithms/sorting/big-sorting-2
+$ ./scripts/challenge src/domains/algorithms/sorting/big-sorting
 
-# Created 'src/domains/algorithms/sorting/big-sorting-2'
-# Created 'src/domains/algorithms/sorting/big-sorting-2/# index.js'
-# Created 'src/domains/algorithms/sorting/big-sorting-2/# __tests__'
-# Created 'src/domains/algorithms/sorting/big-sorting-2/# __tests__/index.test.js'
-# Created 'src/domains/algorithms/sorting/big-sorting-2/# __tests__/input'
-# Created 'src/domains/algorithms/sorting/big-sorting-2/__tests__/output'
+# Created 'src/domains/algorithms/sorting/big-sorting'
+# Created 'src/domains/algorithms/sorting/big-sorting/# index.js'
+# Created 'src/domains/algorithms/sorting/big-sorting/# __tests__'
+# Created 'src/domains/algorithms/sorting/big-sorting/# __tests__/index.test.js'
+# Created 'src/domains/algorithms/sorting/big-sorting/# __tests__/input'
+# Created 'src/domains/algorithms/sorting/big-sorting/__tests__/output'
 ```
 
 Finally, add the test cases files to the `input` and `output` folders. _Make sure to use the same name for both_:
