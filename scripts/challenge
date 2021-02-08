@@ -1,0 +1,73 @@
+#!/usr/bin/env node
+const fs = require("fs");
+const path = require("path");
+
+const handleError = (err) => {
+  if (err) {
+    console.log(err);
+    process.exit(1);
+  }
+};
+
+const readFileSync = (name) => {
+  return fs.readFileSync(path.join(__dirname, name)).toString();
+};
+
+const mkdir = (yourPath) => {
+  return new Promise((resolve, reject) => {
+    fs.mkdir(yourPath, { recursive: true }, (err) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+
+      console.log(`Created '${yourPath}'`);
+
+      resolve(yourPath);
+    });
+  });
+};
+
+const writeFile = (yourPath, data) => {
+  return new Promise((resolve, reject) => {
+    fs.writeFile(path.join(process.cwd(), yourPath), data, (err) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+
+      console.log(`Created '${yourPath}'`);
+
+      resolve(yourPath);
+    });
+  });
+};
+
+const createChallengeFiles = (targetDirectory) => {
+  const testDirectory = path.join(targetDirectory, "__tests__");
+  const challengeTemplate = readFileSync("challenge.template");
+  const testTemplate = readFileSync("test.template");
+
+  return mkdir(targetDirectory)
+    .then((_path) => {
+      return writeFile(path.join(_path, "index.js"), challengeTemplate);
+    })
+    .then(() => {
+      return mkdir(testDirectory);
+    })
+    .then((_test_path) => {
+      return writeFile(path.join(_test_path, "index.test.js"), testTemplate);
+    })
+    .then(() => {
+      return Promise.all([
+        mkdir(path.join(testDirectory, "input")),
+        mkdir(path.join(testDirectory, "output")),
+      ]);
+    })
+    .catch(handleError);
+};
+
+// Script Process
+// ==================================================
+
+createChallengeFiles(process.argv[2]);
