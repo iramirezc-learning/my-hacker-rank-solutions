@@ -46,16 +46,16 @@ Finally, add the test cases files to the `input` and `output` folders. _Make sur
 # example of the tree created
 .
 ├─ src
-|  ├─ domains
-|  |  ├─ algorithms
-|  |  |  ├─ sorting
-|  |  |  |  ├─ big-sorting
-|  |  |  |  |  ├─ __tests__
-|  |  |  |  |  |  ├─ input
-|  |  |  |  |  |  |  └─ 00.txt # add test case file
-|  |  |  |  |  |  ├─ output
-|  |  |  |  |  |  |  └─ 00.txt # add test case file
-|  |  |  |  |  |  ├─ index.test.js
-|  |  |  |  |  └─ index.js
+│  ├─ domains
+│  │  ├─ algorithms
+│  │  │  ├─ sorting
+│  │  │  │  ├─ big-sorting
+│  │  │  │  │  ├─ __tests__
+│  │  │  │  │  │  ├─ input
+│  │  │  │  │  │  │  └─ 00.txt # add test case file
+│  │  │  │  │  │  ├─ output
+│  │  │  │  │  │  │  └─ 00.txt # add test case file
+│  │  │  │  │  │  ├─ index.test.js
+│  │  │  │  │  └─ index.js
 
 ```
