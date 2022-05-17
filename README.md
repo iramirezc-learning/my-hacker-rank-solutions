@@ -69,3 +69,4 @@ Finally, add the test cases files to the `input` and `output` folders. _Make sur
 ## Problems
 
 * [By Domain](docs/domains.md)
+* [By Interview Kit](docs/interview-kit.md)
