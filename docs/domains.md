@@ -6,7 +6,7 @@
 
 ### Implementation
 
-* [Sales by Match](src/domains/algorithms/implementation/sales-by-match)
+* [Sales by Match](../src/domains/algorithms/implementation/sales-by-match)
 
 ### Strings
 
