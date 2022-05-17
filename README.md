@@ -23,13 +23,19 @@ Run the tests:
 $ npm run test
 ```
 
-## Create the file tree for a new challenge
+### Create the file tree for a new challenge
 
-Run the `challenge` script with the new path for the challenge:
+Run the `challenge` script with the new path for the challenge.
+
+__Syntax__
 
 ```sh
-# syntax ./scripts/challenge <new-path>
+./scripts/challenge <new-path>
+```
 
+__Example__
+
+```sh
 $ ./scripts/challenge src/domains/algorithms/sorting/big-sorting
 
 # Created 'src/domains/algorithms/sorting/big-sorting'
@@ -59,3 +65,7 @@ Finally, add the test cases files to the `input` and `output` folders. _Make sur
 │  │  │  │  │  └─ index.js
 
 ```
+
+## Problems
+
+* [By Domain](docs/domains.md)
