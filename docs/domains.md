@@ -6,6 +6,7 @@
 
 ### Implementation
 
+* [Repeated String](../src/problems/algorithms/repeated-string)
 * [Sales by Match](../src/domains/algorithms/implementation/sales-by-match)
 
 ### Strings
@@ -25,6 +26,8 @@
 ### Bit Manipulation
 
 ### Recursion
+
+* [Recursive Digit Sum](../src/domains/algorithms/recursion/recursive-digit-sum)
 
 ### Game Theory
 
