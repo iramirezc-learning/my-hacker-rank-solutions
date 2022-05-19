@@ -7,7 +7,7 @@
 ### Implementation
 
 * [Repeated String](../src/problems/algorithms/repeated-string)
-* [Sales by Match](../src/domains/algorithms/implementation/sales-by-match)
+* [Sales by Match](../src/problems//algorithms/sales-by-match)
 
 ### Strings
 
