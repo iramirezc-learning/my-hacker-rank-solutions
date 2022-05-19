@@ -27,7 +27,7 @@
 
 ### Recursion
 
-* [Recursive Digit Sum](../src/domains/algorithms/recursion/recursive-digit-sum)
+* [Recursive Digit Sum](../src/problems/algorithms/recursive-digit-sum)
 
 ### Game Theory
 
