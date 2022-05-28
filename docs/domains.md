@@ -46,4 +46,5 @@
 
 ### Arrays
 
+* [2D Array - DS](../src/problems/data-structures/2d-array-ds)
 * [Arrays: Left Rotation](../src/problems/data-structures/arrays-left-rotation)

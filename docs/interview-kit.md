@@ -10,7 +10,7 @@
 ## Arrays
 
 - [x] [Arrays: Left Rotation](../src/problems/data-structures/arrays-left-rotation)
-- [ ] 2D Array - DS
+- [x] [2D Array - DS](../src/problems/data-structures/2d-array-ds)
 - [ ] New Year Chaos
 - [ ] Minimum Swaps 2
 - [ ] Array Manipulation
