@@ -43,3 +43,7 @@
 ### Debugging
 
 ## Data Structures
+
+### Arrays
+
+* [Arrays: Left Rotation](../src/problems/data-structures/arrays-left-rotation)
