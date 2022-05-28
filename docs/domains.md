@@ -6,6 +6,7 @@
 
 ### Implementation
 
+* [Counting Valleys](../src/problems/algorithms/counting-valleys)
 * [Jumping on the Clouds](../src/problems/algorithms/jumping-on-the-clouds)
 * [Repeated String](../src/problems/algorithms/repeated-string)
 * [Sales by Match](../src/problems//algorithms/sales-by-match)
