@@ -12,20 +12,20 @@ The purpose of this repository is to backup my solutions to the challenges I've 
 Clone the repository:
 
 ```sh
-$ git clone https://github.com/iramirezc-learning/my-hacker-rank-solutions.git
+git clone https://github.com/iramirezc-learning/my-hacker-rank-solutions.git
 ```
 
 Install the dependencies:
 
 ```sh
-$ cd my-hacker-rank-solutions
-$ npm install
+cd my-hacker-rank-solutions
+npm install
 ```
 
 Run the tests:
 
 ```sh
-$ npm run test
+npm run test
 ```
 
 ## Create the files for a new challenge
@@ -44,6 +44,7 @@ _Note: Change `new-challenge` with the actual name of the problem._
 
 ```sh
 $ ./scripts/challenge src/problems/algorithms/new-challenge
+
 # Created 'src/problems/algorithms/new-challenge'
 # Created 'src/problems/algorithms/new-challenge/README.md'
 # Created 'src/problems/algorithms/new-challenge/new-challenge.js'
@@ -56,8 +57,8 @@ $ ./scripts/challenge src/problems/algorithms/new-challenge
 
 Finally, add the test cases files to the `input` and `output` directories. _Note: Make sure to use the same name for each test case_:
 
-```sh
-# example of the file tree created
+```txt
+Example of the file tree created:
 .
 ├─ src
 │  ├─ problems
@@ -67,7 +68,7 @@ Finally, add the test cases files to the `input` and `output` directories. _Note
 │  │  │  │  │  ├─ input
 │  │  │  │  │  │  └─ 00.txt # add input test case file
 │  │  │  │  │  ├─ output
-│  │  │  │  │  │  └─ 00.txt # add output test case file
+│  │  │  │  │  │  └─ 00.txt # add output test case file matching input file name
 │  │  │  │  │  ├─ new-challenge.spec.js
 │  │  │  │  ├─ index.js
 │  │  │  │  ├─ new-challenge.js
