@@ -13,6 +13,8 @@
 
 ### Sorting
 
+* [Big Sorting](../src/problems/algorithms/big-sorting)
+
 ### Search
 
 ### Graph Theory

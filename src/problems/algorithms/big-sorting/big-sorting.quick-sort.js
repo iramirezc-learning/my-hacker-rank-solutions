@@ -1,13 +1,3 @@
-/**
- * Big Sorting (Quick Sort version)
- * @see {@link https://www.hackerrank.com/challenges/big-sorting/problem}
- */
-function bigSorting(unsorted) {
-  sort(unsorted, 0, unsorted.length - 1);
-
-  return unsorted;
-}
-
 function less(a, b) {
   if (a.length === b.length) return BigInt(a) < BigInt(b);
 
@@ -61,6 +51,17 @@ function sort(arr, lo, hi) {
 
   sort(arr, lo, j - 1);
   sort(arr, j + 1, hi);
+}
+
+/**
+ * Big Sorting using Quick Sort.
+ * @param {Array<string>} unsorted
+ * @returns {Array<string>}
+ */
+function bigSorting(unsorted) {
+  sort(unsorted, 0, unsorted.length - 1);
+
+  return unsorted;
 }
 
 module.exports = bigSorting;
