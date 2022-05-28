@@ -1,6 +1,7 @@
 /**
  * The Full Counting Sort
- * @see {@link https://www.hackerrank.com/challenges/countingsort4/problem}
+ * @param {Array<Array<string>>} arr
+ * @returns {Array<string>}
  */
 function countSort(arr) {
   const n = arr.length;
@@ -29,16 +30,4 @@ function countSort(arr) {
   return sorted;
 }
 
-function toString(arr) {
-  return arr.join(" ");
-}
-
-function main(inputAsString) {
-  const input = inputAsString.trim().split("\n");
-  input.shift(); // get rid of the first number
-  const arr = input.map((line) => line.trim().split(" "));
-
-  return toString(countSort(arr));
-}
-
-module.exports = main;
+module.exports = countSort;
