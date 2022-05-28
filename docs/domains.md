@@ -46,6 +46,9 @@
 
 ### Arrays
 
+* Arrays - DS
 * [2D Array - DS](../src/problems/data-structures/2d-array-ds)
-* [Arrays: Left Rotation](../src/problems/data-structures/arrays-left-rotation)
-* [Minimum Swaps 2](../src/problems/data-structures/minimum-swaps-2)
+* Dynamic Array
+* [Left Rotation](../src/problems/data-structures/arrays-left-rotation)
+* Sparse Arrays
+* Array Manipulation
