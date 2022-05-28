@@ -1,3 +1,9 @@
+/**
+ * Sales by Match
+ * @param {number} n
+ * @param {Array<number>} arr
+ * @returns {number}
+ */
 function sockMerchant(n, arr) {
   const keys = {};
   let pairs = 0;

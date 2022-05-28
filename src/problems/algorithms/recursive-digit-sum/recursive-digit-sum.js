@@ -10,6 +10,12 @@ function superDigit(n) {
   return superDigit(String(sumDigits(n)));
 }
 
+/**
+ * Digit Sum
+ * @param {string} n
+ * @param {number} k
+ * @returns {number}
+ */
 function digitSum(n, k) {
   const p = sumDigits(n) * k;
 

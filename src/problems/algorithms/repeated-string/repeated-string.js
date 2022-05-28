@@ -1,3 +1,9 @@
+/**
+ * Repeated String
+ * @param {string} s
+ * @param {number} n
+ * @returns {number}
+ */
 function repeatedString(s, n) {
   const arrayS = s.split("");
   const len = arrayS.length;
