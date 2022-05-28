@@ -1,6 +1,14 @@
 const fs = require("fs");
 const path = require("path");
 
+global.eachSolver = (solvers, cb) => {
+  for (let name in solvers) {
+    describe(name, () => {
+      cb(solvers[name]);
+    });
+  }
+};
+
 global.eachFile = (dirname, cb) => {
   const inputPath = path.join(dirname, "input");
   const outputPath = path.join(dirname, "output");

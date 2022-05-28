@@ -12,6 +12,7 @@
     "es2020": true
   },
   "globals": {
-    "eachFile": true
+    "eachFile": true,
+    "eachSolver": true
   }
 }
