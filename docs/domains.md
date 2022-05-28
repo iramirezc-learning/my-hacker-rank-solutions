@@ -15,6 +15,7 @@
 
 * [Big Sorting](../src/problems/algorithms/big-sorting)
 * [Insertion Sort - Part 1](../src/problems/algorithms/insertion-sort-part-1)
+* [Insertion Sort - Part 2](../src/problems/algorithms/insertion-sort-part-2)
 
 ### Search
 
