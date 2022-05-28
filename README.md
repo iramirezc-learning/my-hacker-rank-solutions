@@ -36,14 +36,15 @@ __Syntax__
 __Example__
 
 ```sh
-$ ./scripts/challenge src/domains/algorithms/sorting/big-sorting
-
-# Created 'src/domains/algorithms/sorting/big-sorting'
-# Created 'src/domains/algorithms/sorting/big-sorting/index.js'
-# Created 'src/domains/algorithms/sorting/big-sorting/__tests__'
-# Created 'src/domains/algorithms/sorting/big-sorting/__tests__/index.test.js'
-# Created 'src/domains/algorithms/sorting/big-sorting/__tests__/input'
-# Created 'src/domains/algorithms/sorting/big-sorting/__tests__/output'
+$ ./scripts/challenge src/problems/algorithms/big-sorting
+# Created 'src/problems/algorithms/big-sorting'
+# Created 'src/problems/algorithms/big-sorting/README.md'
+# Created 'src/problems/algorithms/big-sorting/big-sorting.js'
+# Created 'src/problems/algorithms/big-sorting/index.js'
+# Created 'src/problems/algorithms/big-sorting/specs'
+# Created 'src/problems/algorithms/big-sorting/specs/big-sorting.spec.js'
+# Created 'src/problems/algorithms/big-sorting/specs/input'
+# Created 'src/problems/algorithms/big-sorting/specs/output'
 ```
 
 Finally, add the test cases files to the `input` and `output` folders. _Make sure to use the same name for both_:
@@ -52,17 +53,18 @@ Finally, add the test cases files to the `input` and `output` folders. _Make sur
 # example of the tree created
 .
 ├─ src
-│  ├─ domains
+│  ├─ problems
 │  │  ├─ algorithms
-│  │  │  ├─ sorting
-│  │  │  │  ├─ big-sorting
-│  │  │  │  │  ├─ __tests__
-│  │  │  │  │  │  ├─ input
-│  │  │  │  │  │  │  └─ 00.txt # add test case file
-│  │  │  │  │  │  ├─ output
-│  │  │  │  │  │  │  └─ 00.txt # add test case file
-│  │  │  │  │  │  ├─ index.test.js
-│  │  │  │  │  └─ index.js
+│  │  │  ├─ big-sorting
+│  │  │  │  ├─ specs
+│  │  │  │  │  ├─ input
+│  │  │  │  │  │  └─ 00.txt # add input test case file
+│  │  │  │  │  ├─ output
+│  │  │  │  │  │  └─ 00.txt # add output test case file
+│  │  │  │  │  ├─ big-sorting.spec.js
+│  │  │  │  ├─ index.js
+│  │  │  │  ├─ big-sorting.js
+│  │  │  │  └─ README.md
 
 ```
 

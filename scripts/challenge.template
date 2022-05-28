@@ -1,22 +1,12 @@
 /**
  * <Challenge Name>
- * @see {@link https://www.hackerrank.com/challenges/<challenge-name>/problem}
+ * @param {number} n
+ * @param {Array<string>} arr
+ * @returns {number}
  */
 function challenge(n, arr) {
   console.log({ n, arr });
-  return null;
+  return n;
 }
 
-function toString(result) {
-  return String(result);
-}
-
-function main(inputAsString) {
-  const input = inputAsString.trim().split("\n");
-  const n = parseInt(input.shift(), 10);
-  const arr = input.map((line) => line.trim().split(" "));
-
-  return toString(challenge(n, arr));
-}
-
-module.exports = main;
+module.exports = challenge;
