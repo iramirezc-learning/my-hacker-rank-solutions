@@ -2,7 +2,7 @@
  * Insertion Sort - Part 1
  * @param {number} n
  * @param {Array<number>} arr
- * @returns {Array<Array<string>>}
+ * @returns {Array<string>}
  */
 function insertionSort1(n, arr) {
   const last = arr[n - 1];
