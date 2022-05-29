@@ -9,7 +9,7 @@
     * [ ] Mini-Max Sum
     * [ ] Plus Minus
     * [ ] Simple Array Sum
-    * [ ] Solve Me First
+    * [x] [Solve Me First](../src/problems/solve-me-first)
     * [ ] Staircase
     * [ ] Time Conversion
   * Implementation
