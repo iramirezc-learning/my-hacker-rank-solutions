@@ -2,7 +2,7 @@
 
 * Algorithms
   * Warmup
-    * [ ] A Very Big Sum
+    * [x] [A Very Big Sum](../src/problems/a-very-big-sum)
     * [ ] Birthday Cake Candles
     * [x] [Compare the Triples](../src/problems/compare-the-triplets)
     * [ ] Diagonal Difference
