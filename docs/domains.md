@@ -4,7 +4,7 @@
   * Warmup
     * [ ] A Very Big Sum
     * [ ] Birthday Cake Candles
-    * [ ] Compare the Triples
+    * [x] [Compare the Triples](../src/problems/compare-the-triplets)
     * [ ] Diagonal Difference
     * [ ] Mini-Max Sum
     * [ ] Plus Minus
