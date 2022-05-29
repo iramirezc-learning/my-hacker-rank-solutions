@@ -30,6 +30,8 @@
 
 ### Constructive Algorithms
 
+* [New Year Chaos](../src/problems/data-structures/new-year-chaos)
+
 ### Bit Manipulation
 
 ### Recursion

@@ -11,6 +11,6 @@
 
 - [x] [2D Array - DS](../src/problems/data-structures/2d-array-ds)
 - [x] [Arrays: Left Rotation](../src/problems/data-structures/arrays-left-rotation)
-- [ ] New Year Chaos
+- [x] [New Year Chaos](../src/problems/data-structures/new-year-chaos)
 - [x] [Minimum Swaps 2](../src/problems/data-structures/minimum-swaps-2)
 - [ ] Array Manipulation
