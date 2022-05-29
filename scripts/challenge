@@ -80,6 +80,12 @@ const createChallengeFiles = (targetDirectory) => {
         mkdir(path.join(testDirectory, "output")),
       ]);
     })
+    .then(() => {
+      return Promise.all([
+        writeFile(path.join(testDirectory, "input", "00.txt"), ""),
+        writeFile(path.join(testDirectory, "output", "00.txt"), ""),
+      ]);
+    })
     .catch(handleError);
 };
 

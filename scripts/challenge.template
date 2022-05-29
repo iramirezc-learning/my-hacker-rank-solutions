@@ -1,12 +1,12 @@
 /**
  * <Challenge Name>
  * @param {number} n
- * @param {Array<string>} arr
+ * @param {Array<number>} arr
  * @returns {number}
  */
-function challenge(n, arr) {
+function solve(n, arr) {
   console.log({ n, arr });
   return n;
 }
 
-module.exports = challenge;
+module.exports = solve;

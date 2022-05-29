@@ -1,12 +1,12 @@
-const challenge = require("./${fileName}")
+const solve = require("./${fileName}")
 
 function main(inputAsString) {
-  const input = inputAsString.trim().split("\n");
-  const n = parseInt(input.shift(), 10);
-  const arr = input.map((line) => line.trim().split(" "));
-  const result = challenge(n, arr)
+  const input = inputAsString.replace(/\s+$/g, "").split("\n");
+  const n = parseInt(input[0], 10);
+  const arr = input[1].split(" ").map((n) => parseInt(n, 10));
+  const result = solve(n, arr)
 
-  return result.join("\n");
+  return String(result);
 }
 
 module.exports = main;
