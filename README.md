@@ -43,16 +43,16 @@ __Example__
 _Note: Change `new-challenge` with the actual name of the problem._
 
 ```sh
-$ ./scripts/challenge src/problems/algorithms/new-challenge
+$ ./scripts/challenge src/problems/new-challenge
 
-# Created 'src/problems/algorithms/new-challenge'
-# Created 'src/problems/algorithms/new-challenge/README.md'
-# Created 'src/problems/algorithms/new-challenge/new-challenge.js'
-# Created 'src/problems/algorithms/new-challenge/index.js'
-# Created 'src/problems/algorithms/new-challenge/specs'
-# Created 'src/problems/algorithms/new-challenge/specs/new-challenge.spec.js'
-# Created 'src/problems/algorithms/new-challenge/specs/input'
-# Created 'src/problems/algorithms/new-challenge/specs/output'
+# Created 'src/problems/new-challenge'
+# Created 'src/problems/new-challenge/README.md'
+# Created 'src/problems/new-challenge/new-challenge.js'
+# Created 'src/problems/new-challenge/index.js'
+# Created 'src/problems/new-challenge/specs'
+# Created 'src/problems/new-challenge/specs/new-challenge.spec.js'
+# Created 'src/problems/new-challenge/specs/input'
+# Created 'src/problems/new-challenge/specs/output'
 ```
 
 Finally, add the test cases files to the `input` and `output` directories. _Note: Make sure to use the same name for each test case_:
@@ -62,16 +62,15 @@ Example of the file tree created:
 .
 ├─ src
 │  ├─ problems
-│  │  ├─ algorithms
-│  │  │  ├─ new-challenge
-│  │  │  │  ├─ specs
-│  │  │  │  │  ├─ input
-│  │  │  │  │  │  └─ 00.txt # add input test case file
-│  │  │  │  │  ├─ output
-│  │  │  │  │  │  └─ 00.txt # add output test case file matching input file name
-│  │  │  │  │  ├─ new-challenge.spec.js
-│  │  │  │  ├─ index.js
-│  │  │  │  ├─ new-challenge.js
-│  │  │  │  └─ README.md
+│  │  ├─ new-challenge
+│  │  │  ├─ specs
+│  │  │  │  ├─ input
+│  │  │  │  │  └─ 00.txt # add input test case file
+│  │  │  │  ├─ output
+│  │  │  │  │  └─ 00.txt # add output test case file matching input file name
+│  │  │  │  ├─ new-challenge.spec.js
+│  │  │  ├─ index.js
+│  │  │  ├─ new-challenge.js
+│  │  │  └─ README.md
 
 ```
