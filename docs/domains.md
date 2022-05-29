@@ -8,7 +8,7 @@
     * [ ] Diagonal Difference
     * [ ] Mini-Max Sum
     * [ ] Plus Minus
-    * [ ] Simple Array Sum
+    * [x] [Simple Array Sum](../src/problems/simple-array-sum)
     * [x] [Solve Me First](../src/problems/solve-me-first)
     * [ ] Staircase
     * [ ] Time Conversion
